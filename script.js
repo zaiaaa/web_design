@@ -5,7 +5,7 @@ document.getElementById("Botao").onclick = () => {
     let toast = document.getElementById("toast")
     if(!toast){
         toast = document.createElement("div")
-        toast.id = toast
+        toast.id = "toast"
         toast.className = "toast"
         document.body.appendChild(toast)
     }
