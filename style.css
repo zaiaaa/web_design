@@ -16,4 +16,14 @@ button{
 
 button:hover{
     background-color: #0056b3;
+    cursor: pointer;
+}
+
+.toast{
+    margin-top: 3rem;
+    font-size: 20px;
+}
+
+.toast span{
+    color: red;
 }
